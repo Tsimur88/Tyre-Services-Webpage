@@ -1,0 +1,498 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-image: url(../img/worker.png) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    padding-bottom: 170px;
+}
+.container {
+    width: 1133px;
+    margin: auto;
+}
+header > div {
+    background-color:rgba(0,0,0,.67);
+    height: 69px;
+    font: bold 24px "Open Sans";
+}
+ul {
+    height: inherit;
+}
+#myLinks a{ 
+    display: inline-block;
+    margin-left: 54px;
+    font: 13px "Open Sans"; 
+    margin-top: 30px;
+    color: #b5b5b5;
+    margin-bottom: 26px;
+    height: 69px;
+}
+header .icon {
+    display: none;
+}
+header div p { 
+    margin-top: 25px;
+    color: #ffffff;
+    margin-left: 35px; 
+    float: left;
+    line-height: 19px;
+}
+h1 {
+    font: 30px "Open Sans";
+    font-weight: 600; 
+    color: #ffffff; 
+    margin: auto;
+    margin-top: 138px;
+    margin-bottom: 82px;
+    text-align: center;
+}
+header button {
+    height: 61px;
+    width: 228px;
+    text-align: center;
+    margin-top: 82px;
+    margin: auto;
+    display: block;
+    background-color: #1e69b8;
+    border: 0;
+    font: bold 21.53px "Open Sans";
+}
+header a {
+    text-decoration: none;
+    color: #ffffff;
+}
+h2 {
+    font: 21px "Open Sans";
+    color: #757679;
+    text-align: center;
+    margin-top: 115px;
+}
+.popular:after {
+    content: "";
+    display: block;
+    width: 81px;
+    height: 2px;
+    background-color: #2171bc;
+    margin: 35px auto 0 auto;
+}
+section p {
+    font: 14px "Open Sans";
+    font-weight: 300;
+    color: #737373;
+    margin-top: 35px;
+    margin-bottom: 107px;
+    text-align: center;
+}
+#first img {
+    width: 100%;
+}
+figure {
+    float: left;
+    width: 33.333%;
+}
+figcapture {
+    text-align: center;
+    height: 57px;
+    width: 100%;
+    display: block;
+    font: 14px "Open Sans";
+    color: #333333;
+    background-color: #f5f5f5;
+    padding-top: 24px;
+    padding-bottom: 21px;
+}
+.clearfix {
+    clear: both;
+}
+#first button {
+    width: 194px;
+    height: 40px;
+    font: 13px "Open Sans";
+    color: #2378c0;
+    margin: 78px auto 111px auto;
+    display: block;
+    border: 1px solid;
+    border-color: #92b5db;
+    background-color: #ffffff;   
+}
+h3 {
+    font: bold 14px "Open Sans";  
+    margin-bottom: 20px;
+    padding-left: 97px;
+}
+.remont {
+    background-image: url("../img/snowflake.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 33.333%;
+}
+.zamena {
+    background-image: url("../img/car.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 33.333%;
+}
+.diag {
+    background-image: url("../img/caution.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 33.333%;
+}
+.remontzazh {
+    background-image: url("../img/battery.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 33.333%;
+}
+.remontel {
+    background-image: url("../img/wi-fi.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 33.333%;
+}
+.remontkuz {
+    background-image: url("../img/repair.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 33.333%;
+}
+#second p {
+    color: black;
+    margin: 0;
+    text-align: center;
+    line-height: 20px;
+    margin-top: 38px;
+    margin-bottom: 108px;
+}
+#second button {
+    width: 194px;
+    height: 40px;
+    font: 13px "Open Sans";
+    color: #2378c0;
+    margin: 78px auto 111px auto;
+    display: block;
+    border: 1px solid;
+    border-color: #92b5db;
+    background-color: #ffffff;
+}
+#third {
+    margin: auto;
+    background-color: #f5f5f5;
+    background-image: url(../img/carService.png);
+    background-repeat: no-repeat; 
+}
+.right {
+    width: 50%;
+    float: right;
+    background-color: #f5f5f5;
+}
+
+#third h2 {
+    display: inline-block;
+    margin-top: 105px;
+    margin-left: 30px;
+}
+#third h2:after {
+    content: "";
+    display: block;
+    width: 81px;
+    height: 2px;
+    background-color: #2171bc;
+    margin-top: 60px;
+    margin-bottom: 50px; 
+}
+#third p {
+    font: 300 14px "Open Sans";
+    margin-bottom: 73px;
+    margin-left: 30px;
+}
+#third ul{
+    column-count: 3;
+    line-height: 20px;
+}
+#third button {
+    margin: auto;
+    margin-top: 78px;
+    margin-bottom: 65px;
+    width: 194px;
+    height: 40px;
+    font: 13px "Open Sans";
+    color: #2378c0;
+    display: block;
+    border: 1px solid;
+    border-color: #92b5db;
+    background-color: #f5f5f5;
+}
+#third li{
+    font: 14px "Open Sans";
+    color: #737373;
+    margin-left: 52px;
+    list-style-image: url(../img/marker.png);
+}
+
+footer {
+    background-color: #73767a;
+    position: relative;
+}
+footer div div {
+    display: inline-block;
+    vertical-align: top;
+}
+footer p {
+    font: 14px "Open Sans";
+    color: white;
+    margin-top: 30px;
+    line-height: 20px;
+}
+footer h2 {
+    color: white;
+    text-align: unset;
+    margin-top: 115px;
+}
+footer h2:after {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 2px;
+    background-color: #aeafb0;
+    margin-top: 28px;
+}
+footer ul{
+    column-count: 2;
+    list-style-type: none;
+    margin-top: 30px;
+    font: 14px "Open Sans";
+    color: #ffffff;
+    line-height: 20px;
+}
+footer li {
+    margin-bottom: 20px;
+}
+.contacts {
+    margin-right: 115px;
+}
+.time {
+    margin-right: 49px;
+}
+.icons {
+    display: block;
+    margin-top: 44px;
+}
+.icons a{
+    display: inline-block;
+    border: solid 1px #888a8e;
+    padding: 20px;
+    color: #aeafb0;
+    margin-right: 8px;
+}
+#button {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 4px;
+    margin: 30px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s;
+    z-index: 1000;
+    border: transparent;
+  }
+  #button:hover {
+    cursor: pointer;
+  }
+  #button:active {
+    background-color: #555;
+  } 
+@media (max-width:1133px) {
+    .container {
+        width: 100%;
+    }
+    input {
+        display: none;
+    }
+    label {
+        display: none;
+    }
+    .contacts, .icons, .uslugi {
+        margin-left: 10px;
+    }
+}
+@media (max-width:800px) {
+    figure {
+        float: none;
+        width: 75%;
+        display: block;
+        margin: auto;
+    }
+    .remont,.zamena,.diag,.remontzazh,.remontel,.remontkuz {
+        width: 50%;
+        vertical-align: top;
+    }
+    .uslugi {
+        display: none;
+    }
+    #third button {
+        margin: 20px auto 20px;
+    }
+    footer {
+        padding-bottom: 80px;
+    }
+    footer .container {
+        width: unset;
+    }
+    footer .contacts {
+        margin-left: 0;
+    }   
+    .icons,.nashi,.contacts,.contacts h2 {
+        margin-left: 10px;
+    }
+    .time {
+        margin-left: 10px;
+    }
+}
+@media (max-width:640px) {
+    figure {
+        float: none;
+        width: 75%;
+        display: block;
+        margin: auto;
+    }
+    .remont,.zamena,.diag,.remontzazh,.remontel,.remontkuz {
+        width: 50%;
+        vertical-align: top;
+    }
+    .right {
+        width: 100%;
+    }
+    .right ul {
+        column-count: 1;
+    }
+    #third {
+        padding-top: 350px;  
+        background-size: 100%;
+    }
+    #third .container{
+        width: 100%;
+    }
+    .remont,.zamena,.diag,.remontzazh,.remontel,.remontkuz {
+        padding-left: 0;
+    }
+}
+@media (max-width:480px) {
+  
+    .container {
+        max-width: 100%;
+        padding: 0;
+        margin: 0;
+    }    
+    #myLinks {
+        background: #545454;
+    }
+    .fa-3x {
+        font-size: 3rem !important;
+    }
+    #myLinks a {
+        display: block;
+        height: auto;
+        margin: 0;
+        padding-top: 10px;
+        padding: 15px;
+    }
+    .topnav {
+        overflow: hidden;
+        position: relative;
+    }
+    .topnav #myLinks {
+        display: none;
+    }
+    .icon {
+        display: block;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    header p {
+        display: none;
+    }
+    header nav li {
+        display: block;
+        margin-top: 0;
+    }
+    .popular {
+        margin-bottom: 29px;
+    }
+    .uslugi {
+        display: none;    
+    }
+    .remont,.zamena,.diag,.remontzazh,.remontel,.remontkuz {
+        min-height: auto;
+        display: block;
+        width: 100%;
+        background-position: top;
+        padding-top: 65px;
+    }
+    #second h3 {
+        text-align: center;
+        padding-left: 0;
+    }
+    #second p{
+        margin-top: 0;
+    }
+    #third ul {
+        margin-left: 94px;
+        column-count: 1;
+    }
+    figure {
+        width: 100%;
+    }
+    #third {
+        background-size: 100%;
+    }
+
+    #third li:nth-child(5) {
+        margin-bottom: 37px;
+        
+    }
+    #third li:nth-child(10) {
+        margin-bottom: 37px;
+        
+    }
+    #fourth a {
+        margin-right: 0;
+    }
+    #fourth h2 {
+        margin-top: 0;
+    }
+    #fourth .time {
+        margin-top: 0;
+    }
+    #fourth div div {
+        display: block;
+    }
+    #fourth .contacts {
+        padding-top: 108px;
+    }
+    #fourth .uslugi {
+        display: none;
+    }
+    .nashi {
+        margin-bottom: 47px;
+    }
+    .right p {
+        margin-left: 0 !important;
+    }
+    footer p {
+        margin-bottom: 38px;
+    }
+    .icons {
+        top: 449px;
+    }
+    header .icon {
+        display: block;
+    }
+}
